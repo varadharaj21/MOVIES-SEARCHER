@@ -1,0 +1,19 @@
+#moviewrapper{
+    display: flex;
+    width: 80%;
+ 
+    border: 1px solid black;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
+#moviecard{
+    text-align: center;
+    width: calc(25% - 2px - 20px);
+   
+    border: 1px solid green;
+    margin: 10px;
+}
+#movieposter{
+    width: 100%;
+    height: 200px;
+}
